@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Drive\shell\runas]
+@="Defragment"
+
+[HKEY_CLASSES_ROOT\Drive\shell\runas\command]
+@="defrag %1 -v"

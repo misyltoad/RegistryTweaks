@@ -1,0 +1,24 @@
+Windows Registry Editor Version 5.00
+
+;; Extras
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"ShowSecondsInSystemClock"=dword:00000001
+"DisallowShaking"=dword:00000001
+"EncryptionContextMenu"=dword:00000001
+"ExtendedUIHoverTime"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\Explorer]
+"DisableNotificationCenter"=dword:00000001
+"DisallowShaking"=dword:00000001
+"EncryptionContextMenu"=dword:00000001
+"ExtendedUIHoverTime"=dword:00000001
+
+;; Verbose Startup
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System]
+"VerboseStatus"=dword:00000001
+
+;; Control Panel
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{21EC2020-3AEA-1069-A2DD-08002B30309D}]
